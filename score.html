@@ -2,22 +2,19 @@
 <html>
 <head>
 	<title>Score Keeper</title>
-	<style type="text/css">
-		body{
-			background: orange;
-		}
-		.winner{
-			color: green;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="score.css">	
+
 </head>
 <body>
+<div><h2>Score Game</h2></div>
 <h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
-<p>Playing to: <span>0</span></p>
+<p><b>Playing to: </b><span><b>0</b></span></p>
 <input type="number">
 <button id="P1">Player One</button>
 <button id="P2">Player Two</button>
 <button id="Reset">Reset</button>
+<br><br>
+<span id="message"></span>
 <script type="text/javascript" src="keeper.js"></script>
 </body>
 </html>

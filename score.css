@@ -1,0 +1,30 @@
+		body{
+			background: grey;
+			text-align: center;
+		}
+		.winner{
+			color: green;
+		}
+		h2{
+			font-size: 50px;
+		}
+		div{
+			background: #D3D3D3;
+		}
+		#p1Display{
+			font-size: 50px;
+		}
+		#p2Display{
+			font-size: 50px;
+		}
+		button:hover{
+			background: tomato;
+			color: black;
+		}
+		input:hover{
+			background: green;
+		}
+		#message{
+			color: #A2DF56;
+			font-size: 50px;
+		}

@@ -1,9 +1,10 @@
 		body{
 			background: grey;
 			text-align: center;
+			margin: 0;
 		}
 		.winner{
-			color: #4CF7CB;
+			color: #A2DF56;
 		}
 
 		.name{
@@ -11,18 +12,15 @@
 			font-size: 70px;
 		}
 
-		h2{
-			font-size: 50px;
-		}
-
 		p{
 			font-size: 30px;
 		}
 
-		div{
+		h2{
 			background: #D3D3D3;
-			margin-left: auto;
+			font-size: 50px;
 		}
+
 		#p1Display{
 			font-size: 50px;
 		}

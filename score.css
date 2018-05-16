@@ -8,8 +8,27 @@
 		}
 
 		.name{
-			color: blue;
-			font-size: 70px;
+			color: white;
+			font-size: 100px;
+			animation: animatePlayer 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+
+		@keyframes animatePlayer{
+			0%{
+				transform: scale(.01);
+				opacity: 0;
+				color: white;
+			}
+			60%{
+				transform: scale(1.2);
+				opacity: 1;
+				color: #A2DF56;
+			}
+			100%{
+				transform: scale(1);
+			}
 		}
 
 		p{
@@ -19,6 +38,10 @@
 		h2{
 			background: #D3D3D3;
 			font-size: 50px;
+		}
+
+		h3{
+			font-size: 30px;
 		}
 
 		#p1Display{
@@ -37,4 +60,16 @@
 		#message{
 			color: #A2DF56;
 			font-size: 100px;
+		}
+
+		.p1Name{
+			display: inline-block;
+		}
+
+		.p2Name{
+			display: inline-block;
+		}
+
+		.bol{
+			font-size: 40px;
 		}

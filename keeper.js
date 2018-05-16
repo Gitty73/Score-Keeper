@@ -5,7 +5,7 @@ var p2Display = document.querySelector("#p2Display");
 var numInput = document.querySelector("input");
 var resetButton = document.querySelector("#Reset");
 var messageDisplay = document.querySelector("#message");
-var winningScoreDisplay = document.querySelector("p span");
+var winningScoreDisplay = document.querySelector("h3 span");
 var p1NameDisplay = document.querySelector(".p1Name");
 var p2NameDisplay = document.querySelector(".p2Name");
 var h2 = document.querySelector("h2");
@@ -22,6 +22,7 @@ p1Button.addEventListener("click", function() {
 		p1Display.classList.add("winner");
 		p1NameDisplay.classList.add("name");
 		h2.style.backgroundColor = "#DAF7A6";
+		winningScoreDisplay.classList.add("winner");
 		messageDisplay.textContent = "P1 is Winner!!!";
 		gameOver = true;
 	}
@@ -36,6 +37,7 @@ p2Button.addEventListener("click", function() {
 		p2Display.classList.add("winner");
 		p2NameDisplay.classList.add("name");
 		h2.style.backgroundColor = "#DAF7A6";
+		winningScoreDisplay.classList.add("winner");
 		messageDisplay.textContent = "P2 is Winner!!!";
 		gameOver = true;
 	}
@@ -62,6 +64,7 @@ function reset(){
 	p2Display.classList.remove("winner");
 	p1NameDisplay.classList.remove("name");
 	p2NameDisplay.classList.remove("name");
+	winningScoreDisplay.classList.remove("winner");
 	h2.style.backgroundColor = "";
 	messageDisplay.textContent = "";
 	gameOver = false;
